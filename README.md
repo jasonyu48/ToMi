@@ -25,18 +25,6 @@ pip install vllm tqdm
 
 ## Usage
 
-### Step 1: Process the Data
-
-First, run the data processing script to convert the raw data files into JSON format:
-
-```bash
-python process_data.py
-```
-
-This will create a `processed_data` directory containing JSON files for each dataset split.
-
-### Step 2: Evaluate an LLM
-
 To evaluate a language model using vLLM, run:
 
 ```bash
