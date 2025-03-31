@@ -2,17 +2,9 @@
 
 This repository contains scripts to process and evaluate large language models (LLMs) on theory of mind (ToM) reasoning tasks. The dataset consists of stories involving agents, objects, and locations, with questions testing different aspects of ToM reasoning such as false belief and memory.
 
-## Data Structure
+## Data
 
-The dataset is split into train, validation, and test sets. Each set consists of:
-- A `.txt` file containing stories and questions
-- A `.trace` file containing metadata and question types
-
-Each story is numbered, with a question at the end. The question types in the trace files include:
-- `memory`: Questions about remembering information from the story
-- `reality`: Questions about the current state of the world
-- `first_order_*`: First-order theory of mind questions (what an agent knows/believes)
-- `second_order_*`: Second-order theory of mind questions (what an agent thinks another agent knows/believes)
+The data is in the data_processed folder.
 
 ## Setup
 
